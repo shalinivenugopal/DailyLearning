@@ -1,13 +1,13 @@
 const students = [
   {
-    name: "Charles",
-    age: 26,
-    country: "Sri Lanka"
+    name: "Shalini",
+    age: 20,
+    country: "KPM"
   },
   {
-    name: "Flashlight Entertaintment",
-    age: 20,
-    country: "India"
+    name: "Kamini",
+    age: 15,
+    country: "Trichy"
   }
 ]
 
@@ -30,3 +30,14 @@ const countryArray = students.map(student => {
  return student.country; 
 });
 console.log(countryArray);
+
+
+
+
+
+
+
+/*Map appudingiradhu, javascript languagela arrays ku iruka oru function, idhuvum foreach 
+mathiri andha arrayla iruka elementsa one by one a loop pannum, 
+and Map appudingira function edhuku maina use agumna, neenga oru arrayla iruka elements
+ a vachu innoru array generate pannathan use agum*/
